@@ -17,9 +17,6 @@ public class ModItems
             ()-> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             ()-> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ARMOR_PLATE = ITEMS.register("armor_plate",
-            ()-> new Item(new Item.Properties()));
-
 
     public static void register(IEventBus eventBus)
     {
